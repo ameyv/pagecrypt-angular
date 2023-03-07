@@ -7,7 +7,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "postbuild": "pagecrypt dist/sample-application/index.html dist/sample-application/index.html password"
+    "postbuild": "pagecrypt dist/sample-application/index.html dist/sample-application/index.html password --unhandled-rejections=strict"
   },
   "private": true,
   "dependencies": {
