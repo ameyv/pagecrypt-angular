@@ -7,7 +7,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "postbuild": "staticrypt dist/sample-application/index.html password"
+    "postbuild": "staticrypt dist/sample-application/index.html -o index.html password"
   },
   "private": true,
   "dependencies": {
